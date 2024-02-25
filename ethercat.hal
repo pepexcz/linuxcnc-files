@@ -1,0 +1,12 @@
+loadusr -W lcec_conf /home/asus/ET_test.xml
+loadrt lcec
+
+addf lcec.read-all servo-thread
+addf lcec.write-all servo-thread
+
+net ec-slaves-responding lcec.slaves-responding
+net ec-link-up lcec.link-up
+net ec-all-op lcec.all-op
+
+
+
