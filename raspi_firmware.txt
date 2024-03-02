@@ -1,0 +1,2 @@
+# rm /etc/{initramfs/post-update.d/,kernel/{postinst.d/,postrm.d/}}z50-raspi-firmware
+# apt purge raspi-firmware
